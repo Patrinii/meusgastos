@@ -1,4 +1,4 @@
-# meusgastos
+# Meus Gastos
 
 Aplicativo Android desenvolvido em Kotlin com o objetivo de registrar, visualizar e gerenciar seus gastos pessoais de forma prática e eficiente.
 
@@ -20,10 +20,10 @@ Aplicativo Android desenvolvido em Kotlin com o objetivo de registrar, visualiza
 - Material Components
 ## Estrutura de Pastas
   meusgastos
- ┣ 📂adapter           # Adapter do RecyclerView
- ┣ 📂model             # Entidade, DAO, Database, Repository, ViewModel
- ┣ 📂ui                # Fragments e layouts
- ┣ 📂res               # Strings, ícones e layouts
+ ┣ *adapter           # Adapter do RecyclerView
+ ┣ *model             # Entidade, DAO, Database, Repository, ViewModel
+ ┣ *ui                # Fragments e layouts
+ ┣ *res               # Strings, ícones e layouts
  ┗ MainActivity.kt     # Ponto de entrada da aplicação
 
 ## Como rodar o projeto
