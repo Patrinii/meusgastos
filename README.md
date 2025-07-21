@@ -11,13 +11,22 @@ Aplicativo Android desenvolvido em Kotlin com o objetivo de registrar, visualiza
 -  Interface responsiva com Material Design
 -  Armazenamento local (não requer conexão com internet)
 
-## Tecnologias e Ferramentas
+## Funcionalidades Implementadas
 
-- Kotlin
-- Android Jetpack (Room, ViewModel, LiveData, Navigation)
-- RecyclerView
-- ViewBinding
-- Material Components
+1. **Cadastro de Gastos**: permite ao usuário inserir nome, valor, data e uma descrição opcional.
+2. **Listagem de Gastos**: exibe todos os gastos salvos em um RecyclerView de forma clara e organizada.
+3. **Exclusão de Gastos**: cada item possui um botão de lixeira que permite remover gastos individualmente.
+4. **Persistência com Room**: todos os dados são salvos localmente no dispositivo, mesmo ao fechar o app.
+5. **Navegação entre Fragments**: fluxo intuitivo entre tela inicial e tela de cadastro com NavController.
+
+## Tecnologias e Bibliotecas Utilizadas
+
+- **Linguagem**: Kotlin
+- **Arquitetura**: MVVM (Model-View-ViewModel)
+- **Persistência**: Room Database
+- **UI**: ViewBinding, Material Design, RecyclerView, ConstraintLayout
+- **AndroidX**: Navigation Component, LiveData, Lifecycle
+
 ## Estrutura de Pastas
   meusgastos
  ┣ *adapter           # Adapter do RecyclerView
@@ -27,6 +36,12 @@ Aplicativo Android desenvolvido em Kotlin com o objetivo de registrar, visualiza
  ┗ MainActivity.kt     # Ponto de entrada da aplicação
 
 ## Como rodar o projeto
+ Requisitos
+
+- **Android Studio Giraffe ou mais recente**
+- **Android SDK 21+ (API mínima 21)**
+- **Emulador configurado ou dispositivo real com Android 5.0+**
+- **Computador com memória ram no mínimo 8gb** 
 
 1. Clone o repositório:
    ```bash
