@@ -27,9 +27,6 @@ Aplicativo Android desenvolvido em Kotlin com o objetivo de registrar, visualiza
 - **UI**: ViewBinding, Material Design, RecyclerView, ConstraintLayout
 - **AndroidX**: Navigation Component, LiveData, Lifecycle
 
-<img width="491" height="160" alt="image" src="https://github.com/user-attachments/assets/6bca3b14-6bba-4da4-91ac-6e9d3e950373" />
-
-
 ## Estrutura de Pastas
   meusgastos
  ┣ *adapter           # Adapter do RecyclerView
